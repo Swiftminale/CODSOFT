@@ -37,15 +37,14 @@ class MainActivity : AppCompatActivity(), TaskItemClickListener {
         }
     }
 
-    override fun editTaskItem(taskItem: TaskItem) {
+    override fun editTaskItem(taskItem: List<TaskItem>) {
         NewTaskSheet(taskItem).show(supportFragmentManager, "newTaskTag")
     }
 
-    override fun completeTaskItem(taskItem: TaskItem) {
+    override fun completeTaskItem(taskItem: List<TaskItem>) {
         taskViewModel.setCompleted(taskItem)
     }
 }
-
 
 
 

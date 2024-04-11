@@ -12,7 +12,7 @@ import com.example.todoapp.databinding.FragmentNewTaskSheetBinding
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import java.time.LocalTime
 
-class NewTaskSheet(var taskItem: TaskItem?) : BottomSheetDialogFragment() {
+class NewTaskSheet(private var taskItem: TaskItem?) : BottomSheetDialogFragment() {
     private lateinit var binding: FragmentNewTaskSheetBinding
     private lateinit var taskViewModel: TaskViewModel
     private var dueTime: LocalTime? = null
@@ -64,7 +64,7 @@ class NewTaskSheet(var taskItem: TaskItem?) : BottomSheetDialogFragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentNewTaskSheetBinding.inflate(inflater, container, false)
         return binding.root
     }
