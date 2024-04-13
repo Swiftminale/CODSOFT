@@ -6,9 +6,8 @@ import { useNavigation } from "@react-navigation/native";
 import { AntDesign } from "@expo/vector-icons";
 import QuizHeader from "../components/QuizHeader";
 
-
-const QuizScreen = () => {
-  const data = General;
+const MathQ = () => {
+  const data = questions;
 
   const totalQuestions = data.length;
 
@@ -96,7 +95,7 @@ const QuizScreen = () => {
 
   return (
     <SafeAreaView>
-        <View>
+    <View>
       <View
         style={{
           flexDirection: "row",
@@ -174,7 +173,7 @@ const QuizScreen = () => {
         >
           {currentQuestion?.question}
         </Text>
-        <View style={{ marginTop: 10}}>
+        <View style={{ marginTop: 10 }}>
           {currentQuestion?.options.map((item, index) => (
             <Pressable
               key={item.id}
@@ -257,14 +256,14 @@ const QuizScreen = () => {
                     padding: 10,
                   }}
                 >
-                  {item.option}
+                  {item.options}
                 </Text>
               )}
               <Text
                 style={{
                   marginLeft: 10,
-                  flexShrink:1}}
-                  >
+                }}
+              >
                 {item.answer}
               </Text>
               {selectedAnswerIndex !== null &&
@@ -347,6 +346,6 @@ const QuizScreen = () => {
   );
 };
 
-export default QuizScreen;
+export default MathQ;
 
 const styles = StyleSheet.create({});
