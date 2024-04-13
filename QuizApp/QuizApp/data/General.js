@@ -1,470 +1,398 @@
 export default [
     {
-        question: "What is 2 + 2?",
+        question: "What is the capital city of Australia?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "4",
+                answer: "Sydney",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "3",
+                answer: "Melbourne",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "5",
+                answer: "Canberra",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "6",
+                answer: "Perth",
+            },
+        ],
+        correctAnswerIndex: 2
+    },
+    {
+        question: "Who wrote 'To Kill a Mockingbird'?",
+        options: [
+            {
+                id: "0",
+                option: "A",
+                answer: "Harper Lee",
+            },
+            {
+                id: "1",
+                option: "B",
+                answer: "J.K. Rowling",
+            },
+            {
+                id: "2",
+                option: "C",
+                answer: "Stephen King",
+            },
+            {
+                id: "3",
+                option: "D",
+                answer: "George Orwell",
             },
         ],
         correctAnswerIndex: 0
     },
     {
-        question: "What is 5 - 3?",
+        question: "What is the chemical symbol for gold?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "2",
+                answer: "Au",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "3",
+                answer: "Ag",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "4",
+                answer: "Fe",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "5",
+                answer: "Cu",
             },
         ],
         correctAnswerIndex: 0
     },
     {
-        question: "What is 8 × 4?",
+        question: "Who painted the Mona Lisa?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "32",
+                answer: "Pablo Picasso",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "24",
+                answer: "Vincent van Gogh",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "16",
+                answer: "Leonardo da Vinci",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "40",
+                answer: "Michelangelo",
+            },
+        ],
+        correctAnswerIndex: 2
+    },
+    {
+        question: "What is the tallest mountain in the world?",
+        options: [
+            {
+                id: "0",
+                option: "A",
+                answer: "Mount Kilimanjaro",
+            },
+            {
+                id: "1",
+                option: "B",
+                answer: "Mount Everest",
+            },
+            {
+                id: "2",
+                option: "C",
+                answer: "Mount Fuji",
+            },
+            {
+                id: "3",
+                option: "D",
+                answer: "K2",
+            },
+        ],
+        correctAnswerIndex: 1
+    },
+    {
+        question: "What is the capital city of Brazil?",
+        options: [
+            {
+                id: "0",
+                option: "A",
+                answer: "Rio de Janeiro",
+            },
+            {
+                id: "1",
+                option: "B",
+                answer: "São Paulo",
+            },
+            {
+                id: "2",
+                option: "C",
+                answer: "Brasília",
+            },
+            {
+                id: "3",
+                option: "D",
+                answer: "Salvador",
+            },
+        ],
+        correctAnswerIndex: 2
+    },
+    {
+        question: "Who wrote '1984'?",
+        options: [
+            {
+                id: "0",
+                option: "A",
+                answer: "George Orwell",
+            },
+            {
+                id: "1",
+                option: "B",
+                answer: "Aldous Huxley",
+            },
+            {
+                id: "2",
+                option: "C",
+                answer: "Ray Bradbury",
+            },
+            {
+                id: "3",
+                option: "D",
+                answer: "J.R.R. Tolkien",
             },
         ],
         correctAnswerIndex: 0
     },
     {
-        question: "What is 15 ÷ 3?",
+        question: "Which planet is known as the 'Red Planet'?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "3",
+                answer: "Venus",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "5",
+                answer: "Jupiter",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "10",
+                answer: "Mars",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "15",
+                answer: "Mercury",
             },
         ],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 2
     },
     {
-        question: "What is 10 + 20 - 5?",
+        question: "What is the capital city of Japan?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "25",
+                answer: "Kyoto",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "30",
+                answer: "Osaka",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "15",
+                answer: "Tokyo",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "5",
+                answer: "Hiroshima",
             },
         ],
-        correctAnswerIndex: 1
+        correctAnswerIndex: 2
     },
     {
-        question: "What is 6 × 6 ÷ 3?",
+        question: "Who is known as the 'Father of Computers'?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "12",
+                answer: "Alan Turing",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "9",
+                answer: "Bill Gates",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "6",
+                answer: "Steve Jobs",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "18",
-            },
-        ],
-        correctAnswerIndex: 1
-    },
-    {
-        question: "What is 25 - 10 + 5?",
-        options: [
-            {
-                id: "0",
-                option: "A",
-                answer: "10",
-            },
-            {
-                id: "1",
-                option: "B",
-                answer: "15",
-            },
-            {
-                id: "2",
-                option: "C",
-                answer: "20",
-            },
-            {
-                id: "3",
-                option: "D",
-                answer: "5",
-            },
-        ],
-        correctAnswerIndex: 1
-    },
-    {
-        question: "What is 7 × 8?",
-        options: [
-            {
-                id: "0",
-                option: "A",
-                answer: "14",
-            },
-            {
-                id: "1",
-                option: "B",
-                answer: "56",
-            },
-            {
-                id: "2",
-                option: "C",
-                answer: "64",
-            },
-            {
-                id: "3",
-                option: "D",
-                answer: "48",
+                answer: "Charles Babbage",
             },
         ],
         correctAnswerIndex: 3
     },
     {
-        question: "What is 50 ÷ 10?",
+        question: "What is the chemical symbol for oxygen?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "5",
+                answer: "Ox",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "10",
+                answer: "O",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "15",
+                answer: "Oxg",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "20",
+                answer: "O2",
             },
         ],
         correctAnswerIndex: 1
     },
     {
-        question: "What is 9 + 3 × 2?",
+        question: "Who is the current President of the United States (as of 2024)?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "15",
+                answer: "Donald Trump",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "21",
+                answer: "Joe Biden",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "12",
+                answer: "Barack Obama",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "27",
-            },
-        ],
-        correctAnswerIndex: 2
-    },
-    {
-        question: "What is 30 ÷ 6?",
-        options: [
-            {
-                id: "0",
-                option: "A",
-                answer: "5",
-            },
-            {
-                id: "1",
-                option: "B",
-                answer: "6",
-            },
-            {
-                id: "2",
-                option: "C",
-                answer: "10",
-            },
-            {
-                id: "3",
-                option: "D",
-                answer: "15",
-            },
-        ],
-        correctAnswerIndex: 2
-    },
-    {
-        question: "What is 7 × 7?",
-        options: [
-            {
-                id: "0",
-                option: "A",
-                answer: "14",
-            },
-            {
-                id: "1",
-                option: "B",
-                answer: "42",
-            },
-            {
-                id: "2",
-                option: "C",
-                answer: "49",
-            },
-            {
-                id: "3",
-                option: "D",
-                answer: "21",
-            },
-        ],
-        correctAnswerIndex: 2
-    },
-    {
-        question: "What is 18 ÷ 3?",
-        options: [
-            {
-                id: "0",
-                option: "A",
-                answer: "3",
-            },
-            {
-                id: "1",
-                option: "B",
-                answer: "6",
-            },
-            {
-                id: "2",
-                option: "C",
-                answer: "9",
-            },
-            {
-                id: "3",
-                option: "D",
-                answer: "12",
+                answer: "Hillary Clinton",
             },
         ],
         correctAnswerIndex: 1
     },
     {
-        question: "What is 40 - 20?",
+        question: "Which country is famous for the Taj Mahal?",
         options: [
             {
-                id: "0",
+                id:
+
+ "0",
                 option: "A",
-                answer: "20",
+                answer: "India",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "15",
+                answer: "Pakistan",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "10",
+                answer: "Bangladesh",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "25",
+                answer: "Nepal",
             },
         ],
         correctAnswerIndex: 0
     },
     {
-        question: "What is 9 × 9?",
+        question: "What is the largest mammal in the world?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "18",
+                answer: "Elephant",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "81",
+                answer: "Blue Whale",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "72",
+                answer: "Giraffe",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "90",
+                answer: "Gorilla",
             },
         ],
         correctAnswerIndex: 1
     },
     {
-        question: "What is 24 ÷ 6?",
+        question: "What is the chemical symbol for water?",
         options: [
             {
                 id: "0",
                 option: "A",
-                answer: "2",
+                answer: "Wa",
             },
             {
                 id: "1",
                 option: "B",
-                answer: "4",
+                answer: "H2O",
             },
             {
                 id: "2",
                 option: "C",
-                answer: "6",
+                answer: "W",
             },
             {
                 id: "3",
                 option: "D",
-                answer: "8",
+                answer: "Hy",
             },
         ],
         correctAnswerIndex: 1
-    },
-    {
-        question: "What is 11 + 11?",
-        options: [
-            {
-                id: "0",
-                option: "A",
-                answer: "22",
-            },
-            {
-                id: "1",
-                option: "B",
-                answer: "23",
-            },
-            {
-                id: "2",
-                option: "C",
-                answer: "21",
-            },
-            {
-                id: "3",
-                option: "D",
-                answer: "24",
-            },
-        ],
-        correctAnswerIndex: 0
-    },
-    {
-        question: "What is 4 × 5?",
-        options: [
-            {
-                id: "0",
-                option: "A",
-                answer: "9",
-            },
-            {
-                id: "1",
-                option: "B",
-                answer: "16",
-            },
-            {
-                id: "2",
-                option: "C",
-                answer: "20",
-            },
-            {
-                id: "3",
-                option: "D",
-                answer: "25",
-            },
-        ],
-        correctAnswerIndex: 2
     }
-]
+] 
+
+
+
+
