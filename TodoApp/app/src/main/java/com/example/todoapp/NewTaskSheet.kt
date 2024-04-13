@@ -1,3 +1,4 @@
+
 package com.example.todoapp
 
 
@@ -90,10 +91,3 @@ class NewTaskSheet(private var taskItem: TaskItem?) : BottomSheetDialogFragment(
     }
 
 }
-
-
-
-
-
-
-
