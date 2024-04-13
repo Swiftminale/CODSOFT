@@ -59,7 +59,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginHorizontal="20dp"
-        app:iconTint="@color/purple_200"
+        app:iconTint="@color/teal_200"
         app:iconPadding="5dp"
         app:icon="@drawable/access_time_24"
         android:text="@string/select_time" />

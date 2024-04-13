@@ -10,7 +10,7 @@ import com.example.todoapp.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity(), TaskItemClickListener {
     private lateinit var binding: ActivityMainBinding
 
-    //private lateinit var taskViewModel: TaskViewModel
+
     private val taskViewModel: TaskViewModel by viewModels {
         TaskItemModelFactory((application as TodoApplication).repository)
     }
@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity(), TaskItemClickListener {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //taskViewModel = ViewModelProvider(this).get(TaskViewModel::class.java)
+
 
         binding.newTaskButton.setOnClickListener {
             NewTaskSheet(null).show(supportFragmentManager, "newTaskTag")
@@ -37,13 +37,15 @@ class MainActivity : AppCompatActivity(), TaskItemClickListener {
         }
     }
 
-    override fun editTaskItem(taskItem: List<TaskItem>) {
+    override fun editTaskItem(taskItem: TaskItem) {
         NewTaskSheet(taskItem).show(supportFragmentManager, "newTaskTag")
     }
 
-    override fun completeTaskItem(taskItem: List<TaskItem>) {
+    override fun completeTaskItem(taskItem: TaskItem) {
         taskViewModel.setCompleted(taskItem)
     }
+
+
 }
 
 

@@ -1,3 +1,4 @@
+
 package com.example.todoapp
 
 
@@ -32,7 +33,7 @@ class TaskItem(
     fun imageResource(): Int = if (isCompleted()) R.drawable.checked_24 else R.drawable.uncheck
     fun imageColor(context: Context): Int = if (isCompleted()) purple(context) else black(context)
 
-    private fun purple(context: Context) = ContextCompat.getColor(context, R.color.purple_500)
+    private fun purple(context: Context) = ContextCompat.getColor(context, R.color.teal_200)
     private fun black(context: Context) = ContextCompat.getColor(context, R.color.black)
 
     companion object {
