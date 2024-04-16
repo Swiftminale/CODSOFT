@@ -15,7 +15,7 @@ const Detail = ({ route }) => {
   const todoRef = firebase.firestore().collection("todos");
   const [textHeading, onChangeTextHeading] = useState(route.params.heading);
   const navigation = useNavigation();
-
+  //Updates Todo
   const updateTodo = () => {
     if (textHeading && textHeading.length > 0) {
       todoRef
