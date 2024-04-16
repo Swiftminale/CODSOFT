@@ -5,18 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57373193-2867-4719-ad4b-04402760f9d3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/migrations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/build.gradle" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/proguard-rules.pro" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/androidTest/java/com/example/todoapp/ExampleInstrumentedTest.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/java/com/example/todoapp/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/java/com/example/todoapp/NewTaskSheet.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/java/com/example/todoapp/ui/theme/Color.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/java/com/example/todoapp/ui/theme/Theme.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/java/com/example/todoapp/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/res/drawable/baseline_add_24.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/res/layout/fragment_new_task_sheet.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/res/mipmap-anydpi/ic_launcher.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TodoApp/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
@@ -68,7 +84,6 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
-    "android.gradle.sync.needed": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
