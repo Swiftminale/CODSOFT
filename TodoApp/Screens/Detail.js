@@ -34,9 +34,11 @@ const Detail = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      <Pressable onPress={() => navigation.navigate("Home")}>
-        <FontAwesome name="arrow-left" size={24} color="black" />
-      </Pressable>
+     <Pressable
+  style={styles.container}
+  onPress={() => navigation.navigate("Detail", { item, heading: item.heading })}
+>
+
       <TextInput
         style={styles.textfield}
         onChangeText={onChangeTextHeading}
