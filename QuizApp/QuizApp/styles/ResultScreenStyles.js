@@ -5,7 +5,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   PressableContinue: {
-    backgroundColor: "green",
+    backgroundColor: "#407BFF",
     padding: 8,
     marginLeft: "auto",
     marginRight: "auto",
@@ -36,14 +36,21 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
+    backgroundColor:"#407BFF",
+    borderRadius:10,
+    padding:"auto",
+    height: 45
   },
   FirstRowShare: {
     flexDirection: "row",
     alignItems: "center",
-    marginRight: 14,
+
   },
   QuestionsAnswerd: {
     flexDirection: "column",
+    backgroundColor:"#407BFF",
+    borderRadius:18,
+    padding:"auto",
     alignItems: "center",
     justifyContent: "space-between",
     marginVertical: 10,
