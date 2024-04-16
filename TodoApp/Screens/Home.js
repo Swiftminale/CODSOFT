@@ -41,7 +41,7 @@ const Home = () => {
   useEffect(() => {
     setCompletedTodos(todos.filter((todo) => todo.completed));
   }, [todos]);
-
+  // Delete Todos
   const deleteTodo = (todo) => {
     Alert.alert(
       "Confirm Deletion",
@@ -70,7 +70,7 @@ const Home = () => {
       { cancelable: false }
     );
   };
-
+  // Toggles Compeletion
   const toggleCompletion = (todo) => {
     const updatedTodos = todos.map((item) => {
       if (item.id === todo.id) {
@@ -87,7 +87,7 @@ const Home = () => {
   const filteredTodos = todos.filter((todo) =>
     todo.heading.toLowerCase().includes(searchQuery.toLowerCase())
   );
-
+  // Add Todos
   const addTodo = () => {
     if (addData && addData.length > 0) {
       const timestamp = firebase.firestore.FieldValue.serverTimestamp();
